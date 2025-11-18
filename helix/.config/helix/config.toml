@@ -1,0 +1,28 @@
+# Catppuccin-Mocha 是一套广泛使用的配色方案，便于与其他工具保持风格统一
+theme = "catppuccin_mocha_overwrite"
+
+[editor]
+
+# 开启相对行号，便于光标跳转
+line-number = "relative"
+
+# 高亮当前行，便于快速定位光标位置
+cursorline = true
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
+#          按键绑定：插入模式          #
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
+
+[keys.insert]
+
+# 禁用方向键
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+pageup = "no_op"
+pagedown = "no_op"
+
+# 禁用 home 和 end 键
+home = "no_op"
+end = "no_op"

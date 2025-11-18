@@ -1,22 +1,22 @@
-# ~~~~~~~~~~~~~~~~~~~~~~~ #
-#           主题          #
-# ~~~~~~~~~~~~~~~~~~~~~~~ #
+# ~~~~~~~~~~~~~~~~~~~~~~ #
+#          主题          #
+# ~~~~~~~~~~~~~~~~~~~~~~ #
 
 # Catppuccin Mocha 是一套被使用广泛的配色，便于与其他软件统一风格
 theme = Catppuccin Mocha        
 
 # 背景透明度
-background-opacity = 0.95
+# background-opacity = 0.95
 
-# ~~~~~~~~~~~~~~~~~~~~~~~ #
-#           窗口          #
-# ~~~~~~~~~~~~~~~~~~~~~~~ #
+# ~~~~~~~~~~~~~~~~~~~~~~ #
+#          窗口          #
+# ~~~~~~~~~~~~~~~~~~~~~~ #
 
 # 窗口内边距，默认情况下文本离边框太近了
 window-padding-x = 10
 
 # 窗口最大化(不是全屏)，适用于终端常驻的工作流
-maximize = true
+# maximize = true
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~ #
 #          快捷终端          #
@@ -36,16 +36,16 @@ quick-terminal-size = 50%,50%
 # Mac 上默认值为 true，Linux 上默认值为 false
 quick-terminal-autohide = true
 
-# ~~~~~~~~~~~~~~~~~~~~~~~ #
-#           鼠标          #
-# ~~~~~~~~~~~~~~~~~~~~~~~ #
+# ~~~~~~~~~~~~~~~~~~~~~~ #
+#          鼠标          #
+# ~~~~~~~~~~~~~~~~~~~~~~ #
 
 # 输入文字时隐藏鼠标
 mouse-hide-while-typing = true
 
-# ~~~~~~~~~~~~~~~~~~~~~~~ #
-#           文本          #
-# ~~~~~~~~~~~~~~~~~~~~~~~ #
+# ~~~~~~~~~~~~~~~~~~~~~~ #
+#          文本          #
+# ~~~~~~~~~~~~~~~~~~~~~~ #
 
 # 英文字体，必需先声明
 font-family = Maple Mono NF
@@ -66,3 +66,9 @@ keybind = ctrl+h=goto_split:left
 keybind = ctrl+j=goto_split:down
 keybind = ctrl+k=goto_split:up
 keybind = ctrl+l=goto_split:right
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~ #
+#          Mac Only          #
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~ #
+
+macos-option-as-alt = true
